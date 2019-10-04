@@ -3,3 +3,5 @@ env: flex
 handlers:
   - url: /.*
     script: this field is required, but ignored
+beta_settings:
+  cloud_sql_instances: prueba-gcloud-1:us-central1:prueba-gcloud-db=tcp:3306
